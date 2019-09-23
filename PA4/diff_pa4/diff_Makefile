@@ -1,0 +1,11 @@
+--- Makefile_	2017-10-27 14:24:24.000000000 -0500
++++ Makefile	2017-11-25 17:15:02.351517000 -0600
+@@ -178,6 +178,8 @@
+ 	_test\
+ 	_ps\
+ 	_testup\
++	_ftest\
++	_ftest2\
+ 	
+ fs.img: mkfs README $(UPROGS)
+ 	./mkfs fs.img README $(UPROGS)
